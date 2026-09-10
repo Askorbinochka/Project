@@ -10,4 +10,12 @@ namespace Project
         }
     }
 
+    public class Queen : Player
+    {
+        public override void Display()
+        {
+            Console.WriteLine("Королева");
+        }
+    }
+
 }
