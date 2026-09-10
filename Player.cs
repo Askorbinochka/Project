@@ -1,7 +1,7 @@
 ﻿using Project;
 using System;
 
-namespace Project1
+namespace Project
 {
     public abstract class Player
     {
