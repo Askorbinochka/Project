@@ -12,6 +12,18 @@ namespace Project1
             this.weapon = w;
         }
 
+        public void Fight()
+        {
+            if (weapon != null)
+            {
+                weapon.UseWeapon();
+            }
+            else
+            {
+                Console.WriteLine("У гравця немає зброї");
+            }
+        }
+
         public abstract void Display();
     }
 }
