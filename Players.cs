@@ -18,4 +18,13 @@ namespace Project
         }
     }
 
+    public class Knight : Player
+    {
+        public override void Display()
+        {
+            Console.WriteLine("Лицар");
+        }
+    }
+
+
 }
