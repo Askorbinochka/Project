@@ -26,5 +26,12 @@ namespace Project
         }
     }
 
+    public class Troll : Player
+    {
+        public override void Display()
+        {
+            Console.WriteLine("Троль");
+        }
+    }
 
 }
